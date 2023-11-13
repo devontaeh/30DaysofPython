@@ -49,14 +49,7 @@ print(7 //3 == int(2.7))
 print(type('10')== type(10))
 
 print(int(float('9.8'))==10)
-
-hours = input('Enter Hours: ')
-rate_per_hour = input('Enter rate per hour: ')
-print(f'Your weekly earning is {hours*rate_per_hour}')
-
-
-years = input('Enter number of years you have lived: ')
-print(f'You have lived for {60*60*24*365*years}')
+cd
 
 for i in range(0, 5):
     print('\n')
