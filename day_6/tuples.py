@@ -30,7 +30,7 @@ print(food_stuff_tp)
 food_stuff_lt = list(food_stuff_tp)
 
 #slice out the middle item
-print(food_stuff_tp[int(len(food_stuff_tp)/2)])
+print(food_stuff_tp[len(food_stuff_tp)//2])
 #slice out first three and last three
 print(f'first three:{food_stuff_tp[0:3]} last three: {food_stuff_tp[-3:]}')
 #delete tuple
